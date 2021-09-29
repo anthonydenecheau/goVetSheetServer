@@ -13,7 +13,7 @@ https://pdfobject.com/
 
 ## Run server
 
-go run main.go --directory="C:\TEMP\AttestationsVeto" --srvFtp="srvdata" --userFtp="ftp_attestations_veto" --pwdFtp="T9K-oYMG21Zwcg6"
+go run main.go --directory="C:\TEMP\AttestationsVeto" --srvFtp="[[ServeurFTP]]" --userFtp="[[userFtp]]" --pwdFtp="[[pwdFtp]]"
 
 go build -o genoscoper.exe main.go
 
